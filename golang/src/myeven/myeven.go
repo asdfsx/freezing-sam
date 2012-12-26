@@ -9,6 +9,7 @@ import (
     "funcExample"
     "structExample"
     "goroutineExample"
+    "ioExample"
     "fmt"
 )
 
@@ -59,4 +60,7 @@ func main(){
     println(pa.Get())
 
     goroutineExample.Gogo()
+
+    ioExample.IoExample()
+    ioExample.ExecExample()
 }
